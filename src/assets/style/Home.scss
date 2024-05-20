@@ -1,0 +1,44 @@
+#home {
+  padding: 30px 80px;
+  margin-top: 100px;
+  .home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--text {
+      font-size: 25px;
+      h1 {
+        margin: 30px;
+        color: white;
+        span {
+          color: linear-gradient(91.57deg, #c0b7e8 -1.02%, #8176af 36.25%);
+        }
+      }
+      p {
+        margin: 30px;
+        color: white;
+
+        font-size: 17px;
+      }
+
+     
+    }
+    &--btn{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin: 30px;
+      button{
+        background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+        padding: 15px 40px;
+       border-radius: 30px;
+       font-weight: bold;
+       border: none;
+      }
+      a{
+        font-size: 40px;
+        color: white;
+      }
+     }
+  }
+}

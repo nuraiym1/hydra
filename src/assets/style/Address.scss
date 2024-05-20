@@ -1,0 +1,49 @@
+#address {
+  padding: 20px 70px;
+  padding-top: 150px;
+
+  .address {
+    background: radial-gradient(
+      50% 2900.76% at 50% 53.89%,
+      rgba(58, 52, 86, 0.95) 0%,
+      #211e2e 100%
+    );
+    width: 100%;
+    padding: 50px;
+    border-radius: 100px;
+    &--block {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      &__top1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      &__top2 {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
+      &__top3 {
+        display: flex;
+        align-items: center;
+
+        gap: 20px;
+      }
+      a {
+        font-size: 60px;
+        color: #c0b7e8;
+      }
+      h1 {
+        color: white;
+        margin-top: -20px;
+      }
+      p {
+        color: white;
+        margin-top: 10px;
+      }
+    }
+  }
+}

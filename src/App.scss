@@ -1,0 +1,19 @@
+@import'../src/assets/style/Header.scss';
+@import'../src/assets/style/Home.scss';
+@import'../src/assets/style/Address.scss';
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 90%;
+}
+a{
+  text-decoration: none;
+}
+body{
+  background: #343045;
+
+}
